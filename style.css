@@ -1,0 +1,136 @@
+/* CSS reset, dit niet aanpassen! */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hieronder mag je eigen CSS code */
+body {
+    background-color: rgb(231, 59, 59);
+     font-family: Tahoma, sans-serif;
+}
+p {
+    color: #a3de1a; /* Red text using HEX */
+}
+h1 {
+    background-color: rgb(59, 70, 231);
+    font-family: Tahoma, sans-serif;
+    color: #f60b80; /* Red text using HEX */
+    font-size: 40px; /* Fixed size */
+}
+
+h2 {
+    text-align: center;
+    background-color: rgb(34, 37, 84);
+    font-family: Tahoma, sans-serif;
+    color: #3c531c; /* Red text using HEX */
+    font-size: 20px; /* Fixed size */
+}
+a{
+  transition: 0.5s;
+}
+
+a:link {
+color: rgb(28, 3, 3);
+}
+a:visited {
+color: green;
+}
+a:hover {
+  transition: 0.5s;
+color: orange}
+
+#plaatje {
+  width: 50%;
+  height: auto;
+}
+
+#beatlesislife {
+    color: #076c7d; /* Red text using HEX */
+}
+
+.menu-item {
+  background-color: rgb(87, 72, 87);
+}
+
+.menu-item:hover {
+  background-color: rgb(0,0,255);
+}
+
+.mijnDivs {
+  background-color: #a3de1a;
+}
+
+#mijnDiv1 {
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  background-position: center; 
+  background-repeat: repeat; 
+}
+
+#mijnDiv1 {
+  border: 3px solid orange;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  height: 25vh;
+}
+
+#mijnDiv3 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+#mijnDiv2 {    
+    display: grid;
+    grid-template-columns: 20vw 15vw 15vw 15vw 15vw 20vw;
+    grid-template-rows: 10vh 45vh auto;
+}
+
+body{
+    background-image: url('images/background2.jpg');
+}
+
+
+
+
+
+#blokje {
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 35px;
+}   
+
+#knopId {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
